@@ -1,0 +1,46 @@
+html>
+    <head>
+        <title>animation</title>
+    </head>
+    <style>
+        body{
+            background-image: linear-gradient(purple,pink,grey);
+        }
+        .card{
+            width: 700px;
+            height: 300px;
+            position: absolute;
+            top: 30%;
+            left: 25%;
+            background: white;
+            color: black;
+            text-align: center;
+            font-size: 40px;
+            box-shadow: 0 0 15px black;
+            animation-name: sample;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes sample{
+            0%{border-radius:0%;background-image: url("E:\\IMG_20210922_212223.jpg");top: 50px;right: 50px;}
+            10%{border-radius: 5%;background-image: url("E:\\IMG_20210922_212307.jpg");top: 60px;right: 60px;}
+            20%{border-radius: 10%;background-image: url("E:\\IMG_20210922_212329.jpg");top: 70px;right: 70px;}
+            30%{border-radius: 15%;background-image: url("E:\\IMG_20210922_212352.jpg");top: 80px;right: 80px;}
+            40%{border-radius: 25%;background-image: url("E:\\IMG_20210922_212412.jpg");top: 90px;right: 90px;}
+            50%{border-radius:0%;background-image: url("E:\\IMG_20210922_212223.jpg");top: 100px;left: 100px;}
+            55%{border-radius: 5%;background-image: url("E:\\IMG_20210922_212307.jpg");top: 110px;left: 110px;}
+            60%{border-radius: 10%;background-image: url("E:\\IMG_20210922_212329.jpg");top: 120px;left: 120px;}
+            65%{border-radius: 15%;background-image: url("E:\\IMG_20210922_212352.jpg");top: 130px;left: 130px;}
+            70%{border-radius: 25%;background-image: url("E:\\IMG_20210922_212412.jpg"); top: 140px;left: 140px;}
+        }
+    </style>
+    <body>
+        <div class="card">
+         <center>
+             <div>
+                 <h1>My name is Chandra Rawat</h1>
+             </div>
+         </center>    
+        </div>
+    </body>
+</html>
